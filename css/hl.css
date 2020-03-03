@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header, .tren, .flag, .menu .duoi, .duoi ul, .duoi ul li{
+    background-color: rgb(178, 40, 48);
+}
+header{
+    margin-top: 8px;
+    padding: 15px 110px 10px 130px;
+    display: flex;
+    height: auto;
+}
+header .menu .tren{
+    display: flex;
+    float: right;
+    margin-top: -50px;
+}
+header .logo1{
+    width: 104px;
+    height: 80px;
+    border-radius: 50%;
+    padding-bottom: -50px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.menu .tren .search{
+    margin-right: 20px;
+}
+.tren .search input{
+    height: 30px;
+    width: 270px;
+    background-color: white;
+    border: none;
+    padding: 0px 30px 0px 10px;
+    position: relative;
+    outline: none;
+}
+button {
+    padding: 0;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.menu .tren .flag{
+    margin-right: 10px;
+    padding-top: 3px;
+    opacity: 0.8;
+    transform: scale(0.9);
+}
+.menu .tren .flag:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+.search button i{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -370px;
+    right: 215px;
+    background-color: white;
+    color: darkgray;
+}
+.menu .duoi{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -20px;
+    margin-left: 200px;
+}
+.menu .duoi ul{
+    list-style: none;
+    display: flex;
+}
+.duoi ul li{
+    margin-right: 5px;
+    padding: 10px 17px;
+}
+.duoi ul li:hover{
+    background-color: rgb(84, 56, 44);
+    transition: 0.4s;
+}
+.duoi ul li a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: wheat;
+    font-size: 17px;
+}
+nav ul li .mot, .hai{
+    width: 100%;
+    height: auto;
+    margin-bottom: -5px;
+}
