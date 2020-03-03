@@ -1,0 +1,47 @@
+nav{
+    margin-top: -20px;
+}
+.but{
+    position: relative;
+}
+.but a img{
+    width: 100%;
+}
+#mot, #hai, #ba{
+    width: 250px;
+    position: absolute;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+#mot{
+    border-color: rgb(243, 189, 122);
+    color: rgb(243, 189, 122);
+    top: 370px;
+    right: 350px;
+}
+#mot:hover{
+    background-color: rgb(243, 189, 122);
+    color: black;
+}
+#hai{
+    border-color: rgb(72, 98, 50);
+    color: rgb(72, 98, 50);
+    top: 380px;
+    left: 350px;
+}
+#hai:hover{
+    background-color: rgb(72, 98, 50);
+    color: white;
+}
+#ba{
+    border-color: rgb(177, 42, 45);
+    color: rgb(177, 42, 45);
+    top: 370px;
+    right: 340px;
+}
+#ba:hover{
+    background-color: rgb(177, 42, 45);
+    color: white;
+}
