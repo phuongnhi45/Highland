@@ -1,8 +1,23 @@
 nav{
     margin-top: -20px;
 }
-.but{
+@keyframes example {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+.but, section{
     position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+.mot{
+    animation-delay: 2s;
+}
+.hai{
+    animation-delay: 5s;
+}
+.ba{
+    animation-delay: 7s;
 }
 .but a img{
     width: 100%;
@@ -44,4 +59,143 @@ nav{
 #ba:hover{
     background-color: rgb(177, 42, 45);
     color: white;
+}
+section .col-md-6{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    line-height: 22px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-1 ul {
+    list-style: none;
+    float: right;
+    width: 50%;
+}
+.section-1 ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+}
+.section-1 ul li:hover a{
+    color: burlywood;
+}
+section .section-1{
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/homepage-STORE_1.jpg);
+    padding: 55px 25px 110px 85px;  
+    background-size: 100% 100%;
+}
+.section-1 .clear{
+    padding-bottom: 59px;
+}
+section .section-2{
+    background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/bg2.jpg);
+    padding: 55px 100px 50px 100px;
+}
+.section-2 .title{
+    color: #333333;
+}
+.title h2{
+    font-weight: bolder;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.title a{
+    text-transform: capitalize;
+    font-size: 13px;
+    text-decoration: underline;
+    font-weight: normal;
+    float: right;
+    margin-top: -35px;
+}
+.title a:hover, .col-md-9 .chu:hover{
+    color: brown;
+    transition: 0.4s;
+}
+.chu, .title a{
+    color: #333333;
+}
+.news .col-md-3{
+    left: -15px;
+}
+.news .anh{
+    width: 125px;
+    float: left;
+    overflow: hidden;
+}
+.news .anh img{
+    
+    width: 100%;
+    transition: all 0.3s linear;;
+}
+.anh img:hover{
+    transform: scale(1.05);
+}
+.news .col-md-9 .chu{
+    text-decoration: none;
+    float: left;
+    margin-bottom: 20px;
+}
+.news i{
+    color: rgb(84, 56, 44);
+    float: left;
+}
+.col-md-9 i::after{
+    content: "04/12/2019";
+    position: absolute;
+    color: #333333;
+    left: 10%;
+}
+.col-md-9{
+    display: block;
+    font-family: 'Open sans', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.news input{
+    height: 30px;
+    width: 355px;
+    background-color: white;
+    border: none;
+    padding: 0px 30px 0px 10px;
+    outline: none;
+    color: black;
+}
+.col-md-9 .two::after{
+    content: "28/10/2019";
+}
+.col-md-9 .three::after{
+    content: "22/10/2019";
+}
+.under i{
+    color: white;
+    padding-left: 25px;
+    font-size: 14px;
+}
+.under i::after{
+    content: "gửi";
+    margin-left: 20%;
+}
+.under button{
+    border-radius: 0;
+    width: 140px;
+    text-transform: uppercase;
+    padding: 7px 22px;
+    right: 16.4%;
+    top: 87.3%;
+    transition: all 0.3s linear;
+}
+.under button:hover{
+    background-color: darkred;
+    color: whitesmoke;
+}
+.under button{
+    background-color: rgb(84, 56, 44);
 }
