@@ -51,3 +51,6 @@ section .footer a{
     content: "customerservice@highlandscoffee.com.vn";
     margin-left: 10px;
 }
+.footer .icons .icon a{
+    margin-left: 0;
+}
