@@ -1,0 +1,28 @@
+@media (max-width: 1426px){
+    section .section-2{
+        padding-bottom: 29px;
+    }
+    .bia{
+        padding: 12px 4em 10px;
+    }
+    .menu-duoi{
+        margin-left: 11vw;
+    }
+    .duoi ul li{
+        padding: 10px 0px;
+    }
+    .search button{
+        padding-right: 14%;
+    }
+}
+@media (max-width: 1267px){
+    .menu-duoi{
+        margin-left: 10vw;
+    }
+    .search button{
+        padding-right: 14em;
+    }
+}
+@media (max-width: 991px){
+    /* menu dọc */
+}

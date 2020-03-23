@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Trà thanh đào</title>
+    <link rel="stylesheet" href="../css/tra-thanh-dao.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="tra-thanh-dao">
+      <div class="main">
+        <h1>trà thanh đào</h1>
+        <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_TRATHANHDAO.png" alt="tra-thanh-dao">
+        <aside>
+          <p>Một trải nghiệm thú vị khác! Sự hài hòa giữa vị trà cao cấp, vị sả thanh mát và những miếng đào thơm ngon mọng nước sẽ mang đến cho bạn một thức uống tuyệt vời.</p>
+          <div id="size">
+            <button onclick="myFunction()" type="button" class="btn active btn-sm">S</button>
+            <button onclick="myFunction1()" type="button" class="btn btn-sm">M</button>
+            <button onclick="myFunction2()" type="button" class="btn btn-sm">L</button>
+          </div>
+          <div id="content" class="price">39,000 VNĐ</div>
+          <div id="myDIV" class="price">49,000 VNĐ</div>
+          <div id="myDIV2" class="price">55,000 VNĐ</div>
+        </aside>
+      </div>
+      
+    </div>
+    <!-- script -->
+    <script>
+      var header = document.getElementById("size");
+      var btns = header.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+        });
+      }
+      function myFunction1() {
+        document.getElementById("myDIV").style.display = 'block';
+        document.getElementById("content").style.display = 'none';
+        document.getElementById("myDIV2").style.display = 'none';
+      }
+      function myFunction2() {
+        document.getElementById("myDIV2").style.display = 'block';
+        document.getElementById("content").style.display = 'none';
+        document.getElementById("myDIV").style.display = 'none'
+      }
+      function myFunction() {
+        document.getElementById("content").style.display = 'block';
+        document.getElementById("myDIV2").style.display = 'none';
+        document.getElementById("myDIV").style.display = 'none';
+      }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
