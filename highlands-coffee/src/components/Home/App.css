@@ -1,0 +1,82 @@
+section{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+section .thucdon{
+  color: #faebd7;
+  padding: 180px 0px 180px 100px;
+  position: relative;
+}
+.thucdon .col-lg-6{
+  top: -130px;
+}
+.col-lg-6 .tieude1, .tieude3{
+  text-transform: uppercase;
+  font-size: 3em;
+  text-decoration: none;
+  color: #faebd7;
+  font-weight: bold;
+  display: block;
+  transition: all 0.4s linear;
+  margin-bottom: 10px;
+}
+.col-lg-6 .caption1{
+  font-size: 18px;
+  font-weight: bold;
+}
+.col-lg-6 img{
+  position: absolute;
+  top: -26px;
+  width: 60%;
+  right: 25%;
+}
+.col-lg-6 .tieude2{
+  text-transform: uppercase;
+  font-size: 3em;
+  text-decoration: none;
+  color: #006400;
+  font-weight: bold;
+  display: block;
+  transition: all 0.4s linear;
+  margin-bottom: 10px;
+}
+.tieude2:hover, .tieude3:hover, .tieude1:hover{
+  color: coral;
+  transition: all 0.4s linear;
+  text-decoration: none;
+}
+.col-lg-6 .caption2{
+  font-size: 18px;
+  font-weight: bold;
+  color: #006400;
+}
+#one{
+  top: 126%;
+  left: 15px;
+  border-color: #faebd7;
+  color: #faebd7;
+}
+#one:hover, #two:hover, #three:hover, #four:hover{
+  background-color: #b22830;
+  color: white;
+  border-color: #b22830;
+}
+#one, #two, #three, #four{
+  text-transform: uppercase;
+  width: 250px;
+}
+#two{
+  color: #006400;
+  border-color: #006400;
+  top: 152%;
+}
+#three{
+  border-color: white;
+  color: white;
+  top: 153%;
+  left: 15px;
+}
+#four{
+  border-color: white;
+  color: white;
+  top: 128%;
+}

@@ -5,7 +5,7 @@ nav{
     from {opacity:0;}
     to {opacity:1;}
 }
-.but, section{
+.but{
     position: relative;
     animation-name: example;
     animation-duration: 4s;
@@ -60,7 +60,7 @@ nav{
     background-color: rgb(177, 42, 45);
     color: white;
 }
-section .col-md-6{
+.col-md-6{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,15 +86,16 @@ section .col-md-6{
 .section-1 ul li:hover a{
     color: burlywood;
 }
-section .section-1{
+.section-1{
     background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/homepage-STORE_1.jpg);
     padding: 55px 25px 110px 85px;  
     background-size: 100% 100%;
+    padding-left: 110px;
 }
-.section-1 .clear{
+.clear{
     padding-bottom: 59px;
 }
-section .section-2{
+.section-2{
     background-image: url(https://www.highlandscoffee.com.vn/vnt_upload/weblink/bg2.jpg);
     padding: 55px 100px 50px 100px;
 }
