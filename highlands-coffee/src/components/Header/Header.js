@@ -5,7 +5,7 @@ class header extends Component {
     return (
       <div className="bia">
         <header>
-          <a href="/trang-chu" className="logo1"><img src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/logo.svg" alt="logo" /></a>
+          <a href="/" className="logo1"><img src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/logo.svg" alt="logo" /></a>
           <div className="menu">
             <div className="tren">
               <form className="search">

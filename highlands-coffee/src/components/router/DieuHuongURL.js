@@ -10,7 +10,7 @@ class DieuHuongURL extends Component {
   render() {
     return (
       <Router>
-          <Route exact path="/trang-chu" component={Nav}/>
+          <Route exact path="/" component={Nav}/>
           <Route exact path="/san-pham" component={Menu}/>
         
       </Router>
