@@ -5,6 +5,8 @@ import Menu from '../Menu/Menu';
 import Nav from '../Nav/Nav';
 import '../Menu/thucdon.css';
 import '../Nav/nav.css';
+import '../System/system.css';
+import system from '../System/system';
 
 class DieuHuongURL extends Component {
   render() {
@@ -12,7 +14,7 @@ class DieuHuongURL extends Component {
       <Router>
           <Route exact path="/" component={Nav}/>
           <Route exact path="/san-pham" component={Menu}/>
-        
+          <Route exact path="/he-thong-cua-hang" component={system}/>
       </Router>
     );
   }

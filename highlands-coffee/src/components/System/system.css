@@ -1,0 +1,152 @@
+.find{
+  margin: 50px 120px 80px;
+}
+.find h1{
+  font-weight: bolder;
+  color: rgb(84, 56, 44);
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: inherit;
+}
+.choice-find{
+  margin-bottom: 30px;
+}
+.custom-select {
+  position: relative;
+  display: inline-flex;
+  max-width: 180px;
+  height: 40px;
+  margin: 0 auto;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  z-index: 10;
+  margin-right: 10px;
+}
+.custom-select select {
+  border: none;
+  outline: none;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  padding: 0px 10px;
+  color: #555555;
+  font-weight: lighter;
+}
+.custom-select:after {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 25px;
+  height: 50%;
+  content: "▼";
+  text-align: center;
+  background-color: whitesmoke;
+  z-index: -1;
+  font-size: 12px;
+}
+.kiem{
+  display: inline-flex;
+  position: relative;
+  margin-right: 10px;
+}
+.kiem input{
+  height: 40px;
+  width: 23em;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 0px 10px;
+  outline: none;
+}
+.kiem button{
+  position: absolute;
+  right: -7.7em;
+  color: white;
+  background-color: rgb(84, 56, 44);
+  height: 40px;
+  width: 7em;
+}
+.kiem .fa-lg{
+  margin-right: 7px;
+}
+.ban-do{
+  display: flex;
+  border: 1px solid #e4e4e4;
+}
+.ban-do .map{
+  width: 900px;
+}
+.map iframe{
+  width: 103%;
+  height: 560px;
+}
+.ban-do .quan{
+  display: block;
+  overflow: scroll;
+  width: 255px;
+  height: 560px;
+}
+.quan .count{
+  height: 40px;
+  border-bottom: 1px solid #e4e4e4;
+  background-color: whitesmoke;
+  padding: 8px 10px;
+  font-size: 1.1em;
+  font-style: italic;
+}
+.quan .list{
+  border-bottom: 1px solid #e4e4e4;
+  padding-top: 10px;
+}
+.list:hover{
+  background-color: whitesmoke;
+}
+.quan .item-quan:hover{
+  text-decoration: none;
+}
+.item-quan h4{
+  color: #555555;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+.item-quan .dc {
+  color: #666666;
+  padding-left: 15px;
+}
+.fa-phone, .tgian{
+  color: #b22830;
+  padding-left: 15px;
+}
+.fa-phone::after{
+  content: "(0234) 395 9799";
+  font-weight: bold;
+  color: #666666;
+  margin-left: 10px;
+}
+.tgian::after{
+  content: "Mở cửa 7:00 - 23:00";
+  color: #999999;
+  margin-left: 10px;
+  font-size: 0.8em;
+}
+.item-quan .fa-wifi, .fa-credit-card{
+  color: #333333;
+  padding-left: 15px;
+}
+.fa-wifi::after{
+  content: "Wifi miễn phí";
+  margin-left: 10px;
+}
+.fa-credit-card::after{
+  content: 'Thanh toán bằng thẻ';
+  margin-left: 10px;
+}
+.fa-credit-card{
+  margin-bottom: 24px;
+}

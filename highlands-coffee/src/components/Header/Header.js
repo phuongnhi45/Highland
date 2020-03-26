@@ -12,12 +12,12 @@ class header extends Component {
                 <input type="search" placeholder="Từ khoá" />
                 <button name="btn-search" type="submit"><i className="fa fa-search fa-lg" aria-hidden="true" /></button>
               </form>
-              <a href="/"><img alt="1" className="flag" src="https://www.highlandscoffee.com.vn/vnt_upload/lang/flag-vn.jpg" /></a>
-              <a href="/"><img alt="1" className="flag" src="https://www.highlandscoffee.com.vn/vnt_upload/lang/flag-en.jpg" /></a>
+              <a href="#"><img alt="1" className="flag" src="https://www.highlandscoffee.com.vn/vnt_upload/lang/flag-vn.jpg" /></a>
+              <a href="#"><img alt="1" className="flag" src="https://www.highlandscoffee.com.vn/vnt_upload/lang/flag-en.jpg" /></a>
             </div>
             <div className="duoi">
               <ul className="ngang">
-                <li className="menu-list"><a href="/">quán cà phê</a></li>
+                <li className="menu-list"><a href="/he-thong-cua-hang">quán cà phê</a></li>
                 <li className="menu-duoi">
                   <a href="/san-pham">thực đơn</a>
                   <div className="row">
