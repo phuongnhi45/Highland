@@ -12,8 +12,8 @@ class header extends Component {
                 <input type="search" placeholder="Từ khoá" />
                 <button name="btn-search" type="submit"><i className="fa fa-search fa-lg" aria-hidden="true" /></button>
               </form>
-              <a href="#"><img alt="1" className="flag" src="https://www.highlandscoffee.com.vn/vnt_upload/lang/flag-vn.jpg" /></a>
-              <a href="#"><img alt="1" className="flag" src="https://www.highlandscoffee.com.vn/vnt_upload/lang/flag-en.jpg" /></a>
+              <a href="/"><img alt="1" className="flag" src="https://www.highlandscoffee.com.vn/vnt_upload/lang/flag-vn.jpg" /></a>
+              <a href="/"><img alt="1" className="flag" src="https://www.highlandscoffee.com.vn/vnt_upload/lang/flag-en.jpg" /></a>
             </div>
             <div className="duoi">
               <ul className="ngang">
@@ -76,8 +76,8 @@ class header extends Component {
                   <a href="/tin-tuc">tin tức</a>
                   <div className="row">
                     <div className="res">
-                      <div className="col-sm-3"><a href="/" className="kind">tin tức &amp; sự kiện</a></div>
-                      <div className="col-sm-3"><a href="/" className="kind">tin khuyến mại</a></div>
+                      <div className="col-sm-3"><a href="/su-kien" className="kind">tin tức &amp; sự kiện</a></div>
+                      <div className="col-sm-3"><a href="/tin-khuyen-mai" className="kind">tin khuyến mại</a></div>
                       <div className="col-sm-2" style={{right: '-29em'}}>
                         <div className="banner">
                           <a href="/" className="text" style={{textTransform: 'none', fontSize: '20px'}}>Tự hào sinh<br /> ra từ đất<br /> Việt, 1999!</a>
@@ -93,13 +93,13 @@ class header extends Component {
                     <div className="res">
                       <div className="col-sm-3">
                         <ul>
-                          <li><a href="/" className="kind">giá trị văn hoá việt</a></li>
+                          <li><a href="/gia-tri-van-hoa-viet" className="kind">giá trị văn hoá việt</a></li>
                           <li style={{margin: '-10px'}}><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">đương đại hoá tranh đồng hồ</a></li>
                         </ul>
                       </div>
                       <div className="col-sm-2">
                         <ul>
-                          <li><a href="/" className="kind">cộng đồng</a></li>
+                          <li><a href="/cong-dong" className="kind">cộng đồng</a></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">lớp học cho em</a></li>
                         </ul>
                       </div>
@@ -113,12 +113,12 @@ class header extends Component {
                   </div>
                 </li>
                 <li className="menu-duoi">
-                  <a href="/">về chúng tôi</a>
+                  <a href="/about">về chúng tôi</a>
                   <div className="row" style={{paddingLeft: '170px'}}>
                     <div className="res">
-                      <div className="col-sm-2"><a href="/" className="kind">khởi nguồn</a></div>
-                      <div className="col-sm-3"><a href="/" className="kind">dịch vụ khách hàng</a></div>
-                      <div className="col-sm-2"><a href="/" className="kind">nghề nghiệp</a></div>
+                      <div className="col-sm-2"><a href="/khoi-nguon" className="kind">khởi nguồn</a></div>
+                      <div className="col-sm-3"><a href="/dich-vu-khach-hang" className="kind">dịch vụ khách hàng</a></div>
+                      <div className="col-sm-2"><a href="/nghe-nghiep" className="kind">nghề nghiệp</a></div>
                       <div className="col-sm-2" style={{right: '-20em'}}>
                         <div className="banner">
                           <a href="/" className="text" style={{textTransform: 'none', fontSize: '20px'}}>Thương<br /> hiệu bắt <br />nguồn từ<br /> cà phê Việt!</a>
@@ -128,7 +128,7 @@ class header extends Component {
                     </div>
                   </div>
                 </li>
-                <li className="menu-list"><a href="/">liên hệ</a></li>
+                <li className="menu-list"><a href="/contact">liên hệ</a></li>
               </ul>
             </div>
           </div>

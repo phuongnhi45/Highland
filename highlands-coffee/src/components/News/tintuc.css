@@ -9,7 +9,7 @@
   color: #53382c;
   text-transform: uppercase;
 }
-.news, .aa{
+.news{
   display: inline-flex;
   flex-wrap: wrap;
   max-width: 1200px;
@@ -82,6 +82,6 @@
   outline: none;
   background-color: #53382c;
 }
-#aa {
+#aa, #bb {
   display: none;
 }

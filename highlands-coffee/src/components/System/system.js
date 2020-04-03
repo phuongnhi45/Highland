@@ -102,7 +102,7 @@ class system extends Component {
           <div className="quan">
             <div className="count">Tìm được 5 quán</div>
             <div className="list">
-              <a href="#" className="item-quan">
+              <a href="/dc" className="item-quan">
                 <h4>vincom plaza huế</h4>
                 <p className="dc">50A Hùng Vương, Phường Phú Nhuận, Tp. Huế , Thừa Thiên Huế</p>
                 <i className="fa fa-phone" aria-hidden="true" />
@@ -112,7 +112,7 @@ class system extends Component {
               </a>
             </div>
             <div className="list">
-              <a href="#" className="item-quan">
+              <a href="/dc" className="item-quan">
                 <h4>vincom plaza huế</h4>
                 <p className="dc">50A Hùng Vương, Phường Phú Nhuận, Tp. Huế , Thừa Thiên Huế</p>
                 <i className="fa fa-phone" aria-hidden="true" />
@@ -122,7 +122,7 @@ class system extends Component {
               </a>
             </div>
             <div className="list">
-              <a href="#" className="item-quan">
+              <a href="/dc" className="item-quan">
                 <h4>vincom plaza huế</h4>
                 <p className="dc">50A Hùng Vương, Phường Phú Nhuận, Tp. Huế , Thừa Thiên Huế</p>
                 <i className="fa fa-phone" aria-hidden="true" />
@@ -132,7 +132,7 @@ class system extends Component {
               </a>
             </div>
             <div className="list">
-              <a href="#" className="item-quan">
+              <a href="/dc" className="item-quan">
                 <h4>vincom plaza huế</h4>
                 <p className="dc">50A Hùng Vương, Phường Phú Nhuận, Tp. Huế , Thừa Thiên Huế</p>
                 <i className="fa fa-phone" aria-hidden="true" />
@@ -142,7 +142,7 @@ class system extends Component {
               </a>
             </div>
             <div className="list">
-              <a href="#" className="item-quan">
+              <a href="/dc" className="item-quan">
                 <h4>vincom plaza huế</h4>
                 <p className="dc">50A Hùng Vương, Phường Phú Nhuận, Tp. Huế , Thừa Thiên Huế</p>
                 <i className="fa fa-phone" aria-hidden="true" />
