@@ -131,9 +131,8 @@ nav{
     overflow: hidden;
 }
 .news .anh img{
-    
     width: 100%;
-    transition: all 0.3s linear;;
+    transition: all 0.3s linear;
 }
 .anh img:hover{
     transform: scale(1.05);

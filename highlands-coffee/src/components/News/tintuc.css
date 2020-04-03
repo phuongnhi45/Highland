@@ -1,0 +1,87 @@
+.tin{
+  margin: 50px 110px;
+}
+.tin .title{
+  font-size: 45px;
+  line-height: inherit;
+  font-weight: bold;
+  text-align: left;
+  color: #53382c;
+  text-transform: uppercase;
+}
+.news, .aa{
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+.main-news{
+  margin-right: 30px;
+}
+.main-news .anh{
+  width: 370px;
+  overflow: hidden;
+  float: left;
+  margin-bottom: 10px;
+}
+.main-news .anh img{
+  width: 100%;
+  transition: all 0.3s linear;
+}
+.main-news .anh img:hover{
+  transform: scale(1.05);
+}
+.main-news .cap{
+  margin-bottom: 5px;
+  height: 45px;
+}
+.main-news .cap:hover a{
+  color: #b22830;
+}
+.main-news .cap a{
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s linear;
+  font-weight: bold;
+  font-size: 0.9em;
+  display: inline-block;
+  width: 370px;
+}
+.date{
+  color: #888888;
+  display: inline-flex;
+  font-size: 13px;
+  margin-bottom: 10px;
+  position: relative;
+  margin-top: 15%;
+}
+.date p{
+  margin-top: -3px;
+}
+.date i{
+  color: #b22830;
+  margin-right: 10px;
+}
+.news button{
+  width: 250px;
+  margin-left: 39%;
+  height: 40px;
+  text-transform: uppercase;
+  padding-top: 6px;
+  position: relative;
+  margin-top: 20px;
+  color: rgb(178, 40, 48);
+  border-color: rgb(178, 40, 48);
+}
+.news button:hover{
+  background-color: rgb(178, 40, 48);
+  color: white;
+  border-color: rgb(178, 40, 48);
+  outline: none;
+}
+.news button:active{
+  outline: none;
+  background-color: #53382c;
+}
+#aa {
+  display: none;
+}

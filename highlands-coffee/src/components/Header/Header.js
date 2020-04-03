@@ -73,7 +73,7 @@ class header extends Component {
                   </div>
                 </li>
                 <li className="menu-duoi">
-                  <a href="/">tin tức</a>
+                  <a href="/tin-tuc">tin tức</a>
                   <div className="row">
                     <div className="res">
                       <div className="col-sm-3"><a href="/" className="kind">tin tức &amp; sự kiện</a></div>
@@ -88,7 +88,7 @@ class header extends Component {
                   </div>
                 </li>
                 <li className="menu-duoi">
-                  <a href="/">trách nhiệm cộng đồng</a>
+                  <a href="/trach-nhiem-cong-dong">trách nhiệm cộng đồng</a>
                   <div className="row">
                     <div className="res">
                       <div className="col-sm-3">
