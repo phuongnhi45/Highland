@@ -5,7 +5,7 @@ class congdong extends Component {
     return (
       <div className="tin" id="xuong">
         <h1 className="title">cộng đồng</h1>
-        <div className="news">
+        <div className="newss">
           <div className="main-news">
             <a className="anh" href="/chi-tiet-tin-tuc"><img src="https://www.highlandscoffee.com.vn/vnt_upload/news/09_2019/thumbs/470_crop_Picture1.png" alt="news" /></a>
             <div className="cap"><a href="/chi-tiet-tin-tuc">HIGHLANDS COFFEE CÙNG Ý TƯỞNG “LỒNG ĐÈN XANH” THẮP SÁNG "TRUNG THU XANH” CHO HƠN</a></div>

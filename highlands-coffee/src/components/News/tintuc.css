@@ -9,7 +9,7 @@
   color: #53382c;
   text-transform: uppercase;
 }
-.news{
+.newss{
   display: inline-flex;
   flex-wrap: wrap;
   max-width: 1200px;
@@ -61,7 +61,7 @@
   color: #b22830;
   margin-right: 10px;
 }
-.news button{
+.newss button{
   width: 250px;
   margin-left: 39%;
   height: 40px;
@@ -72,13 +72,13 @@
   color: rgb(178, 40, 48);
   border-color: rgb(178, 40, 48);
 }
-.news button:hover{
+.newss button:hover{
   background-color: rgb(178, 40, 48);
   color: white;
   border-color: rgb(178, 40, 48);
   outline: none;
 }
-.news button:active{
+.newss button:active{
   outline: none;
   background-color: #53382c;
 }

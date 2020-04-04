@@ -34,9 +34,9 @@ class Menu extends Component {
             <a href="/"><img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/menu-TEA_1.png" style={{top: '-28px', right: '21%'}} alt="CÀ PHÊ" /></a>
           </div>
         </div>
-        <div className="thucdon" style={{backgroundImage: 'url(https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/menu-BANHMI-bg_2.jpg)', top: '-2px', textAlign: 'right', paddingRight: '115px'}}>
+        <div className="thucdon" style={{backgroundImage: 'url(https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/menu-BANHMI-bg_2.jpg)', marginBottom: '-2px', top: '-2px', textAlign: 'right', paddingRight: '58px'}}>
           <div className="col-lg-6">
-            <a href="/"><img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/menu-FREEZE_1.png" style={{width: '68%', top: '-38px'}} alt="freeze" /></a>
+            <a href="/"><img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/banh-mi-thit-nuong-vn.png" style={{width: '95%', left: '0'}} alt="freeze" /></a>
           </div>
           <div className="col-lg-6">
             <a href="/" className="tieude2">bánh mì</a>

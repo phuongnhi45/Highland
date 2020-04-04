@@ -9,7 +9,7 @@ class sukien extends Component {
     return (
       <div className="tin">
         <h1 className="title">tin tức & sự kiện</h1>
-        <div className="news">
+        <div className="newss">
           <div className="main-news">
             <a className="anh" href="/chi-tiet-tin-tuc"><img src="https://www.highlandscoffee.com.vn/vnt_upload/news/02_2018/thumbs/470_crop_HL20_470x314-01.png" alt="news" /></a>
             <div className="cap"><a href="/chi-tiet-tin-tuc">Thư Xin Lỗi Chính Thức Khách Hàng Lê Văn Trường</a></div>

@@ -128,7 +128,7 @@ class header extends Component {
                     </div>
                   </div>
                 </li>
-                <li className="menu-list"><a href="/contact">liên hệ</a></li>
+                <li className="menu-list"><a href="/lien-he">liên hệ</a></li>
               </ul>
             </div>
           </div>

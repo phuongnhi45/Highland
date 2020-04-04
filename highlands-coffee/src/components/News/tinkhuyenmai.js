@@ -5,7 +5,7 @@ class tinkhuyenmai extends Component {
     return (
       <div className="tin">
         <h1 className="title">tin khuyến mãi</h1>
-        <div className="news">
+        <div className="newss">
           <div className="main-news">
             <a className="anh" href="/chi-tiet-tin-tuc"><img src="https://www.highlandscoffee.com.vn/vnt_upload/news/03_2020/thumbs/470_crop_470_crop_Highlands_-_Freeze_Tra_Xanh_-_KV_Phase_1_470x312.png" alt="news" /></a>
             <div className="cap"><a href="/chi-tiet-tin-tuc">HIGHLANDS COFFEE - DỊCH VỤ GIAO HÀNG MIỄN PHÍ</a></div>
