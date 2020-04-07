@@ -26,20 +26,20 @@ class DieuHuongURL extends Component {
   render() {
     return (
       <Router>
-          <Route exact path="/" component={Nav}/>
-          <Route exact path="/san-pham" component={Menu}/>
-          <Route exact path="/he-thong-cua-hang" component={system}/>
-          <Route exact path="/tin-tuc" component={Tintuc}/>
-          <Route exact path="/cong-dong" component={congdong}/>
-          <Route exact path="/su-kien" component={sukien}/>
-          <Route exact path="/about" component={gioithieu}/>
-          <Route exact path="/khoi-nguon" component={khoinguon}/>
-          <Route exact path="/dich-vu-khach-hang" component={dichvu}/>
-          <Route exact path="/nghe-nghiep" component={job}/>
-          <Route exact path="/lien-he" component={order}/>
-          <Route exact path="/tin-khuyen-mai" component={tinkhuyenmai}/>
-          <Route exact path="/gia-tri-van-hoa-viet" component={giatri}/>
-          <Route exact path="/trach-nhiem-cong-dong" component={trachnhiem}/>
+        <Route exact path="/" component={Nav}/>
+        <Route exact path="/san-pham" component={Menu}/>
+        <Route exact path="/he-thong-cua-hang" component={system}/>
+        <Route exact path="/tin-tuc" component={Tintuc}/>
+        <Route exact path="/cong-dong" component={congdong}/>
+        <Route exact path="/su-kien" component={sukien}/>
+        <Route exact path="/about" component={gioithieu}/>
+        <Route exact path="/khoi-nguon" component={khoinguon}/>
+        <Route exact path="/dich-vu-khach-hang" component={dichvu}/>
+        <Route exact path="/nghe-nghiep" component={job}/>
+        <Route exact path="/lien-he" component={order}/>
+        <Route exact path="/tin-khuyen-mai" component={tinkhuyenmai}/>
+        <Route exact path="/gia-tri-van-hoa-viet" component={giatri}/>
+        <Route exact path="/trach-nhiem-cong-dong" component={trachnhiem}/>
       </Router>
     );
   }

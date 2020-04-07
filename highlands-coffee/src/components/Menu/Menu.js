@@ -39,8 +39,8 @@ class Menu extends Component {
             <a href="/"><img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/banh-mi-thit-nuong-vn.png" style={{width: '95%', left: '0'}} alt="freeze" /></a>
           </div>
           <div className="col-lg-6">
-            <a href="/" className="tieude2">bánh mì</a>
-            <span className="caption2">Bạn đã quá quen thuộc với Bánh mì Việt Nam. Hãy nếm thử một miếng Bánh mì ngon, giòn, nóng hổi tại Highlands Coffee. Một kết hợp hoàn hảo giữa lớp nhân chua, cay, mặn, ngọt quyện với lớp vỏ bánh mì giòn tan, mịn màng tạo ra tầng tầng lớp lớp dư vị cho thực khách.</span>
+            <a href="/" style={{color:'#ffffe0'}} className="tieude2">bánh mì</a>
+            <span className="caption2" style={{color:'#ffffe0'}}>Bạn đã quá quen thuộc với Bánh mì Việt Nam. Hãy nếm thử một miếng Bánh mì ngon, giòn, nóng hổi tại Highlands Coffee. Một kết hợp hoàn hảo giữa lớp nhân chua, cay, mặn, ngọt quyện với lớp vỏ bánh mì giòn tan, mịn màng tạo ra tầng tầng lớp lớp dư vị cho thực khách.</span>
             <button type="button" id="four" className="btn btn-outline-warning btn-lg">khám phá thêm</button>
           </div>
         </div>

@@ -17,22 +17,21 @@ class order extends Component {
                   <input type="text" id="adr" name="address" placeholder="Address" />
                   <label htmlFor="adr"><i className="fa fa-phone-square" /> Phone</label>
                   <input type="text" id="adr" name="address" placeholder="Number" />
-                </div>  
-                <div className="col-50 pay">
+                
                   <h3>Payment</h3>
-                  <label className="contain">
+                  <label className="pay">
                     <input type="radio" defaultChecked="checked" name="radio" />
                     <span className="checkmark" />Thanh toán khi nhận hàng
                   </label>
-                  <label className="contain">
+                  <label className="pay">
                     <input type="radio" name="radio" />
                     <span className="checkmark" />Momo
                   </label>
-                  <label className="contain">
+                  <label className="pay">
                     <input type="radio" name="radio" />
                     <span className="checkmark" />Airpay
                   </label>
-                  <label className="contain">
+                  <label className="pay">
                     <input type="radio" name="radio" />
                     <span className="checkmark" />Card
                   </label>
@@ -42,14 +41,29 @@ class order extends Component {
             </form>
           </div>
           <div className="contain">
-            <div className="col-50" style={{marginTop: '16px'}}>
-              <h4>Cart <span className="price" style={{color: 'black'}}><i className="fa fa-shopping-cart" /> <b>4</b></span></h4>
-              <p><a href="/product">Product 1</a> <span className="price">$15</span></p>
-              <p><a href="/product">Product 2</a> <span className="price">$5</span></p>
-              <p><a href="/product">Product 3</a> <span className="price">$8</span></p>
-              <p><a href="/product">Product 4</a> <span className="price">$2</span></p>
-              <hr />
-              <p>Total <span className="price" style={{color: 'black'}}><b>$30</b></span></p>
+            <div className="col-50 cuon">
+              <h3>Cart <span className="price"><i className="fa fa-shopping-cart" /> <b>4</b></span></h3><hr />
+              <div className="hoadon"> 
+                <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_TRASENVANG.png" alt="tra sen vang"/> 
+                <div className="size">Trà sen vàng<br/><i>M</i></div>
+                <span style={{marginLeft: '70%'}} className="price">35.000 Đ</span>
+              </div><hr />
+              <div className="hoadon"> 
+                <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_TRASENVANG.png" alt="tra sen vang"/> 
+                <div className="size">Trà sen vàng<br/><i>M</i></div>
+                <span style={{marginLeft: '70%'}} className="price">35.000 Đ</span>
+              </div><hr />
+              <div className="hoadon"> 
+                <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_TRASENVANG.png" alt="tra sen vang"/> 
+                <div className="size">Trà sen vàng<br/><i>M</i></div>
+                <span style={{marginLeft: '70%'}} className="price">35.000 Đ</span>
+              </div><hr />
+              <div className="hoadon"> 
+                <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_TRASENVANG.png" alt="tra sen vang"/> 
+                <div className="size">Trà sen vàng<br/><i>M</i></div>
+                <span style={{marginLeft: '70%'}} className="price">35.000 Đ</span>
+              </div><hr />
+              <p>Total <span className="price"><b>140.000 Đ</b></span></p>
             </div>
           </div>
         </div>

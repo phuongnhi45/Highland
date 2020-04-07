@@ -1,42 +1,46 @@
 .order{
   box-sizing: border-box;
   font-size: 17px;
-  padding: 8px;
-  padding-left: 30px;
+  padding: 8px 8px 8px 30px;
+  margin-bottom: 15px;
 }
 h1{
   text-align: center;
 }
 .nhi {
-  display: block;
-  margin: 0 -16px;
+  width: 130%;
+  margin-left: 10px;
 }
 .col-50{
   padding: 0 16px;
   flex: 50%;
-  margin-right: 15px;
 }
-.nhi .pay .contain{
-  border: none;
+.nhi .pay{
+  display: inline-flex;
+  width: 50%;
 }
-.pay .contain span{
-  margin-right: 10px;
+.pay .checkmark{
+  margin-left: 10px;
 }
 .contain {
   background-color: #f2f2f2;
-  padding: 5px 30px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 3px;
   display: inline-flex;
-  width: 48%;
+  width: 49%;
+  max-height: 542px;
   margin-right: 10px;
 }
 input[type=text] {
   width: 100%;
   margin-bottom: 20px;
-  padding: 12px;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+.cuon{
+  margin-left: 10px;
+  overflow: scroll;
 }
 label {
   margin-bottom: 10px;
@@ -50,9 +54,9 @@ label {
 .xac {
   background-color: #4CAF50;
   color: white;
-  margin: 10px 0;
+  margin: 10px 16px;
   border: none;
-  width: 100%;
+  width: 93%;
   border-radius: 3px;
   cursor: pointer;
   font-size: 17px;
@@ -65,14 +69,31 @@ a {
   color: #2196F3;
 }
 hr {
-  border: 1px solid lightgrey;
+  border-color: lightgrey;
 }
-
-span.price {
+.col-50 .price {
   float: right;
-  color: grey;
 }
-
+.col-50 .hoadon{
+  display: flex;
+  position: relative;
+  margin: -10px 0px;
+}
+.hoadon .size{
+  position: absolute;
+  margin-bottom: 10px;
+  left: 25%;
+  font-size: 20px;
+  color: darkred;
+  top: 10%;
+}
+.hoadon .size i{
+  font-size: 16px;
+  color: rgb(56, 56, 56);
+}
+.col-50 .hoadon img{
+  width: 110px;
+}
 @media (max-width: 800px) {
   .nhi {
     flex-direction: column-reverse;
