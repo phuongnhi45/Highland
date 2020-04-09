@@ -28,8 +28,8 @@ h1{
   border-radius: 3px;
   display: inline-flex;
   width: 49%;
-  max-height: 542px;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 input[type=text] {
   width: 100%;
@@ -37,10 +37,6 @@ input[type=text] {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-}
-.cuon{
-  margin-left: 10px;
-  overflow: scroll;
 }
 label {
   margin-bottom: 10px;

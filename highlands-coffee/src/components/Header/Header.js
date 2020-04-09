@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 
 class header extends Component {
   render() {
     return (
       <div className="bia">
         <header>
-          <a href="/" className="logo1"><img src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/logo.svg" alt="logo" /></a>
+          <Link to="/" className="logo1"><img src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/logo.svg" alt="logo" /></Link>
           <div className="menu">
             <div className="tren">
               <form className="search">
@@ -17,9 +18,9 @@ class header extends Component {
             </div>
             <div className="duoi">
               <ul className="ngang">
-                <li className="menu-list"><a href="/he-thong-cua-hang">quán cà phê</a></li>
+                <li className="menu-list"><Link to="/he-thong-cua-hang">quán cà phê</Link></li>
                 <li className="menu-duoi">
-                  <a href="/san-pham">thực đơn</a>
+                  <Link to="/san-pham">thực đơn</Link>
                   <div className="row">
                     <div className="res">
                       <div className="col-sm-2">
@@ -73,11 +74,11 @@ class header extends Component {
                   </div>
                 </li>
                 <li className="menu-duoi">
-                  <a href="/tin-tuc">tin tức</a>
+                  <Link to="/tin-tuc">tin tức</Link>
                   <div className="row">
                     <div className="res">
-                      <div className="col-sm-3"><a href="/su-kien" className="kind">tin tức &amp; sự kiện</a></div>
-                      <div className="col-sm-3"><a href="/tin-khuyen-mai" className="kind">tin khuyến mại</a></div>
+                      <div className="col-sm-3"><Link to="/tin-tuc-su-kien" className="kind">tin tức &amp; sự kiện</Link></div>
+                      <div className="col-sm-3"><Link to="/tin-khuyen-mai" className="kind">tin khuyến mại</Link></div>
                       <div className="col-sm-2" style={{right: '-29em'}}>
                         <div className="banner">
                           <a href="/" className="text" style={{textTransform: 'none', fontSize: '20px'}}>Tự hào sinh<br /> ra từ đất<br /> Việt, 1999!</a>
@@ -88,18 +89,18 @@ class header extends Component {
                   </div>
                 </li>
                 <li className="menu-duoi">
-                  <a href="/trach-nhiem-cong-dong">trách nhiệm cộng đồng</a>
+                  <Link to="/trach-nhiem-cong-dong">trách nhiệm cộng đồng</Link>
                   <div className="row">
                     <div className="res">
                       <div className="col-sm-3">
                         <ul>
-                          <li><a href="/gia-tri-van-hoa-viet" className="kind">giá trị văn hoá việt</a></li>
+                          <li><Link to="/gia-tri-van-hoa-viet" className="kind">giá trị văn hoá việt</Link></li>
                           <li style={{margin: '-10px'}}><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">đương đại hoá tranh đồng hồ</a></li>
                         </ul>
                       </div>
                       <div className="col-sm-2">
                         <ul>
-                          <li><a href="/cong-dong" className="kind">cộng đồng</a></li>
+                          <li><Link to="/cong-dong" className="kind">cộng đồng</Link></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">lớp học cho em</a></li>
                         </ul>
                       </div>
@@ -113,12 +114,12 @@ class header extends Component {
                   </div>
                 </li>
                 <li className="menu-duoi">
-                  <a href="/about">về chúng tôi</a>
+                  <Link to="/about">về chúng tôi</Link>
                   <div className="row" style={{paddingLeft: '170px'}}>
                     <div className="res">
-                      <div className="col-sm-2"><a href="/khoi-nguon" className="kind">khởi nguồn</a></div>
-                      <div className="col-sm-3"><a href="/dich-vu-khach-hang" className="kind">dịch vụ khách hàng</a></div>
-                      <div className="col-sm-2"><a href="/nghe-nghiep" className="kind">nghề nghiệp</a></div>
+                      <div className="col-sm-2"><Link to="/khoi-nguon" className="kind">khởi nguồn</Link></div>
+                      <div className="col-sm-3"><Link to="/dich-vu-khach-hang" className="kind">dịch vụ khách hàng</Link></div>
+                      <div className="col-sm-2"><Link to="/nghe-nghiep" className="kind">nghề nghiệp</Link></div>
                       <div className="col-sm-2" style={{right: '-20em'}}>
                         <div className="banner">
                           <a href="/" className="text" style={{textTransform: 'none', fontSize: '20px'}}>Thương<br /> hiệu bắt <br />nguồn từ<br /> cà phê Việt!</a>
@@ -128,7 +129,7 @@ class header extends Component {
                     </div>
                   </div>
                 </li>
-                <li className="menu-list"><a href="/lien-he">liên hệ</a></li>
+                <li className="menu-list"><Link to="/lien-he">liên hệ</Link></li>
               </ul>
             </div>
           </div>

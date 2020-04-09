@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 class Nav extends Component {
   render() {
     return (
@@ -58,7 +58,7 @@ class Nav extends Component {
         <div className="col-md-6 section-2">
           <div className="title">
             <h2>tin mới nhất</h2>
-            <a href="/">xem toàn bộ<i style={{paddingLeft: '5px'}} className="fa fa-chevron-right" aria-hidden="true" /></a>
+            <Link to="/tin-tuc">xem toàn bộ<i style={{paddingLeft: '5px'}} className="fa fa-chevron-right" aria-hidden="true" /></Link>
           </div>
           <div className="news">
             <div className="col-md-3">

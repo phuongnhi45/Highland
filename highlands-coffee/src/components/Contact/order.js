@@ -53,16 +53,7 @@ class order extends Component {
                 <div className="size">Trà sen vàng<br/><i>M</i></div>
                 <span style={{marginLeft: '70%'}} className="price">35.000 Đ</span>
               </div><hr />
-              <div className="hoadon"> 
-                <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_TRASENVANG.png" alt="tra sen vang"/> 
-                <div className="size">Trà sen vàng<br/><i>M</i></div>
-                <span style={{marginLeft: '70%'}} className="price">35.000 Đ</span>
-              </div><hr />
-              <div className="hoadon"> 
-                <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_TRASENVANG.png" alt="tra sen vang"/> 
-                <div className="size">Trà sen vàng<br/><i>M</i></div>
-                <span style={{marginLeft: '70%'}} className="price">35.000 Đ</span>
-              </div><hr />
+              
               <p>Total <span className="price"><b>140.000 Đ</b></span></p>
             </div>
           </div>
