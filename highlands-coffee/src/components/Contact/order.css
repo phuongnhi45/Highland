@@ -1,25 +1,28 @@
-.order{
+.order {
   box-sizing: border-box;
   font-size: 17px;
   padding: 8px 8px 8px 30px;
   margin-bottom: 15px;
 }
-h1{
+h1 {
   text-align: center;
+  transition: all 0.3s linear;
 }
 .nhi {
   width: 130%;
   margin-left: 10px;
+  transition: all 0.3s linear;
 }
-.col-50{
+.col-50 {
   padding: 0 16px;
   flex: 50%;
 }
-.nhi .pay{
+.nhi .pay {
   display: inline-flex;
   width: 50%;
+  transition: all 0.3s linear;
 }
-.pay .checkmark{
+.pay .checkmark {
   margin-left: 10px;
 }
 .contain {
@@ -31,7 +34,7 @@ h1{
   margin-right: 10px;
   margin-bottom: 10px;
 }
-input[type=text] {
+input[type="text"] {
   width: 100%;
   margin-bottom: 20px;
   padding: 10px;
@@ -48,7 +51,7 @@ label {
   font-size: 24px;
 }
 .xac {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   margin: 10px 16px;
   border: none;
@@ -57,12 +60,13 @@ label {
   cursor: pointer;
   font-size: 17px;
   height: 40px;
+  transition: all 0.3s linear;
 }
 .xac:hover {
   background-color: #45a049;
 }
 a {
-  color: #2196F3;
+  color: #2196f3;
 }
 hr {
   border-color: lightgrey;
@@ -70,12 +74,10 @@ hr {
 .col-50 .price {
   float: right;
 }
-.col-50 .hoadon{
-  display: flex;
+.col-50 .hoadon {
   position: relative;
-  margin: -10px 0px;
 }
-.hoadon .size{
+.hoadon .size {
   position: absolute;
   margin-bottom: 10px;
   left: 25%;
@@ -83,15 +85,155 @@ hr {
   color: darkred;
   top: 10%;
 }
-.hoadon .size i{
+.hoadon .size i {
   font-size: 16px;
   color: rgb(56, 56, 56);
 }
-.col-50 .hoadon img{
+.hoadon .tien {
+  margin-left: 70%;
+  transition: all 0.3s linear;
+}
+.col-50 .hoadon img {
   width: 110px;
+}
+
+@media (max-width: 1360px) {
+  .nhi {
+    width: 120%;
+  }
+  .hoadon .tien {
+    margin-left: 65%;
+  }
+}
+@media (max-width: 1270px) {
+  .nhi {
+    width: 110%;
+  }
+}
+@media (max-width: 1170px) {
+  .nhi {
+    width: 100%;
+    padding-right: 10px;
+  }
+  .nhi .pay {
+    width: 100%;
+  }
+  .hoadon .tien {
+    margin-left: 60%;
+  }
+}
+@media (max-width: 1052px) {
+  .contain {
+    width: 48%;
+  }
+  .hoadon .size {
+    font-size: 16px;
+  }
+  .hoadon .size i{
+    font-size: 13px;
+  }
+}
+@media (max-width: 1040px) {
+  .hoadon .tien {
+    margin-left: 55%;
+    font-size: 16px;
+  }
+  .col-50 .hoadon img {
+    width: 100px;
+  }
+}
+@media (max-width: 933px) {
+  .hoadon .tien {
+    margin-left: 50%;
+  }
+}
+@media (max-width: 810px) {
+  .hoadon .tien {
+    margin-left: 40%;
+  }
+  .nhi{
+    margin-left: 0px;
+  }
 }
 @media (max-width: 800px) {
   .nhi {
     flex-direction: column-reverse;
+  }
+  .col-50 .hoadon img {
+    width: 90px;
+  }
+  .hoadon .size{
+    font-size: 14px;
+  }
+  .hoadon .size i{
+    font-size: 11px;
+  }
+}
+@media (max-width: 770px) {
+  .order,
+  .hoadon .tien {
+    font-size: 14px;
+  }
+  .xac{
+    width: 90%;
+    margin: 10px;
+    font-size: 15px;
+    height: 30px;
+  }
+}
+@media (max-width: 710px) {
+  .col-50 .hoadon img {
+    width: 80px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .col-50 h3{
+    font-size: 20px;
+  }
+}
+@media (max-width: 670px) {
+  h1 {
+    font-size: 20px;
+  }
+  .col-50 h3{
+    font-size: 18px;
+  }
+  .order{
+    font-size: 12px;
+  }
+}
+@media (max-width: 560px){
+  h1 {
+    font-size: 16px;
+  }
+  .col-50 h3{
+    font-size: 14px;
+  }
+  .col-50 .hoadon img {
+    width: 60px;
+  }
+  .hoadon .tien {
+    font-size: 12px;
+  }
+  .hoadon .size{
+    font-size: 11px;
+  }
+  .hoadon .size i{
+    font-size: 9px;
+  }
+}
+@media (max-width: 520px){
+  .col-50 h3{
+    font-size: 12px;
+  }
+  .col-50 .hoadon img {
+    width: 45px;
+  }
+  .hoadon .tien {
+    font-size: 10px;
+  }
+  .order{
+    font-size: 10px;
   }
 }
