@@ -66,7 +66,7 @@ class Nav extends Component {
             </div>
             <div className="col-md-9">
               <a href="/" className="chu">UỐNG TRÀ SEN VÀNG MỚI - NHẬN VÔ VÀN ƯU ĐÃI SEN VÀNG</a>
-              <i className="fa fa-calendar-o" aria-hidden="true" />
+              <i id="dien" className="fa fa-calendar-o" aria-hidden="true" />
             </div>
           </div>
           <div className="news">
