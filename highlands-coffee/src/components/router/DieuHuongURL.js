@@ -21,6 +21,11 @@ import khoinguon from '../about/khoinguon';
 import dichvu from '../about/dichvu';
 import job from '../about/job';
 import order from '../Contact/order';
+import Caphe from '../Menu/Caphe';
+import Freeze from '../Menu/Freeze';
+import Tea from '../Menu/Tea';
+import Bread from '../Menu/Bread';
+import Khac from '../Menu/Khac';
 
 class DieuHuongURL extends Component {
   render() {
@@ -40,6 +45,11 @@ class DieuHuongURL extends Component {
         <Route exact path="/tin-khuyen-mai" component={tinkhuyenmai}/>
         <Route exact path="/gia-tri-van-hoa-viet" component={giatri}/>
         <Route exact path="/trach-nhiem-cong-dong" component={trachnhiem}/>
+        <Route exact path="/ca-phe" component={Caphe}/>
+        <Route exact path="/da-xay" component={Freeze}/>
+        <Route exact path="/tra" component={Tea}/>
+        <Route exact path="/banh-mi" component={Bread}/>
+        <Route exact path="/khac" component={Khac}/>
       </div>
     );
   }
