@@ -210,6 +210,11 @@ nav{
     .clear{
         display: none;
     }
+    .news input{
+        bottom: 3.5em;
+    left: 7em;
+    position: absolute;
+    }
 }
 @media (max-width: 1390px){
     .news .col-md-9 .chu{
@@ -240,7 +245,7 @@ nav{
         margin: 0;
     }
     .under button {
-        top: 91%;
+        top: 87%;
     }
 }
 @media (max-width: 1320px){
@@ -251,13 +256,22 @@ nav{
         padding: 25px 30px 40px;
     }
     .under button {
-        top: 94%;
         right: 12%;
+    }
+    .news input {
+        bottom: 1.5em;
+        width: 54%;
+    }
+    .under button {
+        top: 92%;
     }
 }
 @media (max-width: 1280px){
     .under button {
         top: 93%;
+    }
+    .news input {
+        left: 6em;
     }
 }
 @media (max-width: 1265px){
@@ -278,6 +292,10 @@ nav{
     .under button {
         right: 10%;
     }
+    .news input {
+        left: 3em;
+        width: 62%;
+    }
 }
 @media (max-width: 1150px){
     .under button {
@@ -285,19 +303,7 @@ nav{
         right: 7%;
     }
 }
-@media (max-width: 1123px){
-    .under button {
-        top: 85%;
-        right: 4%;
-    }
-    .col-md-6{
-        line-height: 17px;
-    }
-}
 @media (max-width: 1103px){
-    .under button {
-        top: 88%;
-    }
     .col-md-9{
         padding-left: 18px;
     }
@@ -321,12 +327,17 @@ nav{
         left: 22%;
     }
     .under button {
-        top: 90%;
+        top: 92%;
     }
 }
-@media (max-width: 992px){
-    #ba, #hai, #ba{
+@media (max-width: 991px){
+    #mot, #hai, #ba{
         display: none;
+    }
+    .carousel {
+        position: absolute;
+        width: 100%;
+        padding-right: 60%;
     }
     .col-md-6{
         padding: 0px 50%;
@@ -337,12 +348,6 @@ nav{
     .title{
         position: absolute;
         left: 5%;
-    }
-    .carousel {
-        width: 100%;
-        left: 17%;
-        position: absolute;
-        top: 23%;
     }
     .col-md-9{
         position: absolute;
@@ -359,7 +364,7 @@ nav{
     .col-md-9 i{
         position: absolute;
         margin-left: -41em;
-        top: 2em;
+        top: 3em;
     }
     .col-md-9 i::after {
         left: 1.5em;
@@ -368,8 +373,6 @@ nav{
         margin-left: -30em;
     }
     .news input{
-        position: absolute;
-        margin-left: -29.5em;
         top: 25em;
         width: 75%;
     }
@@ -388,12 +391,57 @@ nav{
     .title a {
         right: -50em;
     }
+    .news input {
+        left: 4.5em;
+    }
 }
 @media (max-width: 922px){
     .news input{
         width: 77%;
+        left: 3em;
     }
     .title a {
-        right: -47em;
+        left: 310%;
+    }
+}
+@media (max-width: 859px){
+    .news .col-md-3 {
+        margin-left: -26.5em;
+    }
+    .col-md-9 {
+        margin-left: -16em;
+    }
+    .col-md-9 i {
+        margin-left: -39em;
+    }
+    .news input {
+        width: 74%;
+    }
+}
+@media (max-width: 805px){
+    .news .col-md-3 {
+        margin-left: -25em;
+    }
+    .col-md-9 i {
+        margin-left: -37em;
+    }
+    .news input {
+        width: 71%;
+    }
+}
+@media (max-width: 791px){
+    .news .col-md-3 {
+        margin-left: -26.5em;
+    }
+    .news input {
+        width: 74%;
+    }
+}
+@media (max-width: 770px){
+    .news .col-md-9 .chu{
+        width: 72%;
+    }
+    #dien, .col-md-9 i{
+        margin-left: -34em;
     }
 }

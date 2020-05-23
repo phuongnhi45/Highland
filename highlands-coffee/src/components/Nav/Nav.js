@@ -12,12 +12,12 @@ class Nav extends Component {
           </ol>
           <div className="carousel-inner">
             <a href="/" className="item active"><img alt="1" src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/HCO-7605-FESTIVE-2020-WEB-FB-2000X639.jpg" style={{width: '100%'}} /></a>
-            <a href="/" className="item"><img alt="1" src="../1.jpg" style={{width: '100%'}} /></a>
+            <a href="/" className="item"><img alt="1" src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/HCO-7548-PHIN-SUA-DA-2019-TALENT-WEB_1.jpg" style={{width: '100%'}} /></a>
             <a href="/" className="item"><img alt="1" src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/VIET.Brand_Campaign_WEBBANNER.jpg" style={{width: '100%'}} /></a>
           </div>
         </div>
         <div className="but mot">
-          <a href="/"><img alt="1" src="../2.jpg" /></a>
+          <a href="/"><img alt="1" src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/HCO-7548-PHIN-SUA-DA-2019-TALENT-WEB_1.jpg" /></a>
           <button type="button" id="mot" className="btn btn-outline-warning btn-lg">khám phá thêm</button>
         </div>
         <div className="but hai">
@@ -29,7 +29,7 @@ class Nav extends Component {
           <button type="button" id="ba" className="btn btn-outline-warning btn-lg">khám phá thêm</button>
         </div>
         
-        <div className="col-md-6 section-1">
+        <div className="col-md-6 section-1 col-sm-12">
           <div className="title">
             <h2>quán mới</h2>
           </div>
@@ -55,7 +55,7 @@ class Nav extends Component {
           <div className="clear" />
         </div>
 
-        <div className="col-md-6 section-2">
+        <div className="col-md-6 section-2 col-sm-12">
           <div className="title">
             <h2>tin mới nhất</h2>
             <Link to="/tin-tuc">xem toàn bộ<i style={{paddingLeft: '5px'}} className="fa fa-chevron-right" aria-hidden="true" /></Link>
