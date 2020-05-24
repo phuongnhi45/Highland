@@ -439,9 +439,69 @@ nav{
 }
 @media (max-width: 770px){
     .news .col-md-9 .chu{
-        width: 72%;
+        width: 80%;
     }
     #dien, .col-md-9 i{
-        margin-left: -34em;
+        margin-left: -28em;
+    }
+    .news .col-md-3 {
+        margin-left: -24.5em;
+    }
+    .col-md-9 {
+        margin-left: -15em;
+    }
+}
+@media (max-width: 767px){
+    #dien, .col-md-9 i {
+        margin-left: -38em;
+    }
+}
+@media (max-width: 735px){
+    #dien, .col-md-9 i {
+        margin-left: -36em;
+    }
+    .news .col-md-3 {
+        margin-left: -23.5em;
+    }
+    .col-md-9 {
+        margin-left: -14em;
+    }
+}
+@media (max-width: 735px){
+    #dien, .col-md-9 i {
+        margin-left: -35em;
+    }
+    .title a {
+        left: 286%;
+    }
+}
+@media (max-width: 692px){
+    .news .col-md-3 {
+        margin-left: -21.5em;
+    }
+    .col-md-9 {
+        margin-left: -12em;
+    }
+    #dien, .col-md-9 i {
+        margin-left: -33em;
+    }
+    .news .col-md-9 .chu {
+        width: 77%;
+    }
+}
+@media (max-width: 668px){
+    #dien, .col-md-9 i {
+        margin-left: -32em;
+    }
+    .title a {
+        left: 270%;
+    }
+}
+@media (max-width: 646px){
+    #dien, .col-md-9 i {
+        margin-left: -31em;
+    }
+    .news .col-md-3 {
+        margin-left: -20.7em;
     }
 }
