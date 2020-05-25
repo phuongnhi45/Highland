@@ -1,21 +1,28 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import Slider from "react-slick";
 class Nav extends Component {
   render() {
+    const settings1={
+      dots:true,
+      infinite:true,
+      speed: 300,
+      slidesToShow:1,
+      slideToScroll:1
+    }
     return (
       <nav>
-        <div id="myCarousel" className="carousel slide" data-ride="carousel">
-          <ol className="carousel-indicators">
-            <li data-target="/myCarousel" data-slide-to={0} style={{marginRight: '10px'}} className="active" />
-            <li data-target="/myCarousel" data-slide-to={1} style={{marginRight: '10px'}} />
-            <li data-target="/myCarousel" data-slide-to={2} style={{marginRight: '10px'}} />
-          </ol>
-          <div className="carousel-inner">
-            <a href="/" className="item active"><img alt="1" src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/HCO-7605-FESTIVE-2020-WEB-FB-2000X639.jpg" style={{width: '100%'}} /></a>
-            <a href="/" className="item"><img alt="1" src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/HCO-7548-PHIN-SUA-DA-2019-TALENT-WEB_1.jpg" style={{width: '100%'}} /></a>
-            <a href="/" className="item"><img alt="1" src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/VIET.Brand_Campaign_WEBBANNER.jpg" style={{width: '100%'}} /></a>
+        <Slider {...settings1}>
+          <div className="item">
+              <img src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/HCO-7605-FESTIVE-2020-WEB-FB-2000X639.jpg" style={{width: '100%'}} alt="none"/>
           </div>
-        </div>
+          <div className="item">
+              <img src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/HCO-7548-PHIN-SUA-DA-2019-TALENT-WEB_1.jpg" style={{width: '100%'}} alt="none"/>
+          </div>
+          <div className="item item-position">
+              <img src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/VIET.Brand_Campaign_WEBBANNER.jpg" style={{width: '100%'}} alt="none"/>
+          </div>
+        </Slider>
         <div className="but mot">
           <a href="/"><img alt="1" src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/HCO-7548-PHIN-SUA-DA-2019-TALENT-WEB_1.jpg" /></a>
           <button type="button" id="mot" className="btn btn-outline-warning btn-lg">khám phá thêm</button>
