@@ -4,6 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
+        <a href="/" className="btn btn-info" role="button"><i className="fa fa-map-marker" aria-hidden="true" /></a><br/>
         <ul className="icons">
           <li className="icon"><a href="/"><i className="fa fa-facebook" aria-hidden="true" /> </a></li>
           <li className="icon"><a href="/"><i className="fa fa-youtube" aria-hidden="true" /> </a></li>

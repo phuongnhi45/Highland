@@ -54,3 +54,58 @@
 .footer .icons .icon a{
     margin-left: 0;
 }
+.footer .btn-info{
+    background-color: brown;
+    display: none;
+}
+.footer .btn-info:hover{
+    background-color: white;
+    color: rgb(84, 56, 44);
+}
+.footer .btn-info::after{
+    content: "VIEW MAP";
+    margin-left: 12px;
+}
+@media (max-width: 1148px){
+    .footer{
+        padding: 25px 115px;
+    }
+}
+@media (max-width: 1098px){
+    .footer{
+        padding: 25px 85px;
+    }
+}
+@media (max-width: 1038px){
+    .footer{
+        padding: 25px 60px;
+    }
+}
+@media (max-width: 991px){
+    .footer .btn-info{
+        display: inline-block;
+        width: 300px;
+        height: 45px;
+        font-size: 18px;
+        margin: 17px;
+    }
+    .footer .copyRight {
+        margin: 15px;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .footer a{
+        display: block;
+        margin: 10px;
+    }
+    .footer .icons .icon{
+        padding: 0;
+        padding-top: 5px;
+    }
+    .footer .icons .icon a{
+        margin: 0;
+    }
+}
