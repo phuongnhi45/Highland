@@ -1,0 +1,163 @@
+.about{
+  display: block;
+  overflow: hidden;
+  margin-top: -10px;
+}
+.about .khoinguon{
+  background-color: #ffffff;
+  display: block;
+  overflow: hidden;
+}
+.anhdich, .anhnghe, .anhkhoi {
+  display: inline-block;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  position: relative;
+}
+.background1 {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, white , transparent);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+.background2 {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to left, #bd945d , transparent);
+  top: 50%;
+  left: 50%;
+  transform: translate(-49.9%, -50%);
+  z-index: 9;
+}
+.background3 {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #8e5a2d , transparent);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+.khoinguon .capkhoi, .job .capnghe{
+  padding: 40px 0px 0px 120px;
+  width: 50%;
+  float: left;
+}
+.capkhoi a{
+  color: #53382c;
+  text-transform: uppercase;
+  display: block;
+  font-size: 46px;
+  font-weight: bold;
+  transition: all 0.3s linear;
+  margin-bottom: 15px;
+}
+.capkhoi a:hover{
+  text-decoration: none;
+  color: rgba(189,148,93,1);
+  transition: all 0.3s linear;
+}
+.capkhoi .nguon{
+  margin-top: 2em;
+}
+.khoinguon .capkhoi .nguon a{
+  width: 250px;
+  height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(178, 40, 48);
+  border: 1px solid rgb(178, 40, 48);
+  line-height: 0;
+  font-weight: normal;
+  padding-top: 1em;
+  font-size: 17px;
+  border-radius: 5px;
+  transition: all 0.3s linear;
+}
+.khoinguon .capkhoi .nguon a:hover{
+  background-color: rgb(178, 40, 48);
+  color: white;
+  border-color: rgb(178, 40, 48);
+  outline: none;
+}
+.dichvu{
+  color: white;
+  background: #bd945d;
+  overflow: hidden;
+}
+.dichvu .capdich{
+  text-align: right;
+  width: 50%;
+  float: right;
+  padding: 70px 130px 0px 0px;
+  position: relative;
+  background-color: #bd945d;
+}
+.capdich a, .capnghe a{
+  font-size: 46px;
+  font-weight: bold;
+  transition: all 0.3s linear;
+  color: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.capdich p, .capnghe a, .capnghe p{
+  margin-top: 18px;
+}
+.capdich a:hover{
+  transition: all 0.3s linear;
+  color: #ffc266;
+  text-decoration: none;
+}
+.hang {
+  float: right;
+}
+.dichvu .capdich .hang, .capnghe .nghiep{
+  border-radius: 5px;
+  border: 1px solid white;
+  width: 250px;
+  text-align: center;
+  height: 40px;
+  margin: 22px 0px 3.33em;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgba(189,148,93,1);
+  transition: all 0.3s linear;
+}
+.hang, .nghiep{
+  font-weight: normal;
+  padding-top: 0.5em;
+  font-size: 17px;
+}
+.dichvu .capdich .hang:hover, .capnghe .nghiep:hover{
+  background: white;
+	color:#b22830;
+}
+.dichvu .anhdich{
+  float: left;
+  width: 50%;
+}
+.job{
+  background-color: #8e5a2d;
+  overflow: hidden;
+  color: white;
+}
+.job .capnghe a:hover{
+  transition: all 0.3s linear;
+  color: lightcoral;
+  text-decoration: none;
+}
+.capnghe .nghiep{
+  background-color: #8e5a2d;
+  margin: 30px 0px 0px;
+}

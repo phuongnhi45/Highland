@@ -1,23 +1,30 @@
 import React, { Component } from 'react';
-
+import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import Slider from "react-slick";
 class Nav extends Component {
   render() {
+    const settings1={
+      dots:true,
+      infinite:true,
+      speed: 300,
+      slidesToShow:1,
+      slideToScroll:1
+    }
     return (
       <nav>
-        <div id="myCarousel" className="carousel slide" data-ride="carousel">
-          <ol className="carousel-indicators">
-            <li data-target="/myCarousel" data-slide-to={0} style={{marginRight: '10px'}} className="active" />
-            <li data-target="/myCarousel" data-slide-to={1} style={{marginRight: '10px'}} />
-            <li data-target="/myCarousel" data-slide-to={2} style={{marginRight: '10px'}} />
-          </ol>
-          <div className="carousel-inner">
-            <a href="/" className="item active"><img alt="1" src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/HCO-7605-FESTIVE-2020-WEB-FB-2000X639.jpg" style={{width: '100%'}} /></a>
-            <a href="/" className="item"><img alt="1" src="../1.jpg" style={{width: '100%'}} /></a>
-            <a href="/" className="item"><img alt="1" src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/VIET.Brand_Campaign_WEBBANNER.jpg" style={{width: '100%'}} /></a>
+        <Slider {...settings1}>
+          <div className="item">
+              <img src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/HCO-7605-FESTIVE-2020-WEB-FB-2000X639.jpg" style={{width: '100%'}} alt="none"/>
           </div>
-        </div>
+          <div className="item">
+              <img src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/HCO-7548-PHIN-SUA-DA-2019-TALENT-WEB_1.jpg" style={{width: '100%'}} alt="none"/>
+          </div>
+          <div className="item item-position">
+              <img src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/VIET.Brand_Campaign_WEBBANNER.jpg" style={{width: '100%'}} alt="none"/>
+          </div>
+        </Slider>
         <div className="but mot">
-          <a href="/"><img alt="1" src="../2.jpg" /></a>
+          <a href="/"><img alt="1" src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/HCO-7548-PHIN-SUA-DA-2019-TALENT-WEB_1.jpg" /></a>
           <button type="button" id="mot" className="btn btn-outline-warning btn-lg">khám phá thêm</button>
         </div>
         <div className="but hai">
@@ -29,7 +36,7 @@ class Nav extends Component {
           <button type="button" id="ba" className="btn btn-outline-warning btn-lg">khám phá thêm</button>
         </div>
         
-        <div className="col-md-6 section-1">
+        <div className="col-md-6 section-1 col-sm-12">
           <div className="title">
             <h2>quán mới</h2>
           </div>
@@ -55,10 +62,10 @@ class Nav extends Component {
           <div className="clear" />
         </div>
 
-        <div className="col-md-6 section-2">
+        <div className="col-md-6 section-2 col-sm-12">
           <div className="title">
             <h2>tin mới nhất</h2>
-            <a href="/">xem toàn bộ<i style={{paddingLeft: '5px'}} className="fa fa-chevron-right" aria-hidden="true" /></a>
+            <Link to="/tin-tuc">xem toàn bộ<i style={{paddingLeft: '5px'}} className="fa fa-chevron-right" aria-hidden="true" /></Link>
           </div>
           <div className="news">
             <div className="col-md-3">
@@ -66,7 +73,7 @@ class Nav extends Component {
             </div>
             <div className="col-md-9">
               <a href="/" className="chu">UỐNG TRÀ SEN VÀNG MỚI - NHẬN VÔ VÀN ƯU ĐÃI SEN VÀNG</a>
-              <i className="fa fa-calendar-o" aria-hidden="true" />
+              <i id="dien" className="fa fa-calendar-o" aria-hidden="true" />
             </div>
           </div>
           <div className="news">
