@@ -10,6 +10,7 @@ import '../News/tintuc.css';
 import '../Community/trachnhiem.css';
 import '../about/gioithieu.css';
 import '../Contact/order.css';
+import '../about/khoinguon.css';
 import system from '../System/system';
 import trachnhiem from '../Community/trachnhiem';
 import giatri from '../Community/giatri';
