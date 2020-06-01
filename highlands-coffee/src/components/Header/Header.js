@@ -25,21 +25,21 @@ class header extends Component {
                     <div className="res">
                       <div className="col-sm-2">
                         <ul>
-                          <li><a href="/" className="kind">cà phê</a></li>
+                          <li><Link to="/ca-phe" className="kind">cà phê</Link></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">cà phê phin</a></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">cà phê espresso</a></li>
                         </ul>
                       </div>
                       <div className="col-sm-2">
                         <ul>
-                          <li><a href="/" className="kind">freeze</a></li>
+                          <li><Link to="/da-xay" className="kind">freeze</Link></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">freeze cà phê phin</a></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">freeze không cà phê</a></li>
                         </ul>
                       </div>
                       <div className="col-sm-2">
                         <ul>
-                          <li><a href="/" className="kind">trà</a></li>
+                          <li><Link to="/tra" className="kind">trà</Link></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">trà sen vàng</a></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">trà thạch đào</a></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">trà thanh đào</a></li>
@@ -48,7 +48,7 @@ class header extends Component {
                       </div>
                       <div className="col-sm-2">
                         <ul>
-                          <li><a href="/" className="kind">bánh mì</a></li>
+                          <li><Link to="/banh-mi" className="kind">bánh mì</Link></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">thịt nướng</a></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">xíu mại</a></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">chả lụa xá xíu</a></li>
@@ -57,7 +57,7 @@ class header extends Component {
                       </div>
                       <div className="col-sm-2">
                         <ul>
-                          <li><a href="/" className="kind">khác</a></li>
+                          <li><Link to="/khac" className="kind">khác</Link></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">bánh ngọt</a></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">merchandise</a></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">cà phê đóng gói</a></li>
@@ -122,8 +122,10 @@ class header extends Component {
                       <div className="col-sm-2"><Link to="/nghe-nghiep" className="kind">nghề nghiệp</Link></div>
                       <div className="col-sm-2" style={{right: '-20em'}}>
                         <div className="banner">
-                          <a href="/" className="text" style={{textTransform: 'none', fontSize: '20px'}}>Thương<br /> hiệu bắt <br />nguồn từ<br /> cà phê Việt!</a>
-                          <a href="/" className="imga"><img alt="1" src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/ABOUT-ORIGIN.png" /></a>
+                          <Link to="/khoi-nguon">
+                            <div className="text" style={{textTransform: 'none', fontSize: '20px'}}>Thương<br /> hiệu bắt <br />nguồn từ<br /> cà phê Việt!</div>
+                            <div className="imga"><img alt="1" src="https://www.highlandscoffee.com.vn/vnt_upload/weblink/ABOUT-ORIGIN.png" /></div>
+                          </Link>
                         </div>
                       </div>
                     </div>

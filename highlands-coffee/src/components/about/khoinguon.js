@@ -47,21 +47,26 @@ class khoinguon extends Component {
           </div>
 
           <div className="col-4">
-            <Link to="/dich-vu-khach-hang">
-              <img
-                src="https://www.highlandscoffee.com.vn/vnt_upload/about/thumbs/370_crop_About_Customer_service_2.jpg"
-                alt="DỊCH VỤ KHÁCH HÀNG"
-              />
-              <span>dịch vụ khách hàng</span>
-            </Link>
-
-            <Link to="/nghe-nghiep">
-              <img
-                src="https://www.highlandscoffee.com.vn/vnt_upload/about/thumbs/370_crop_ABOUT-CAREER3.jpg"
-                alt="NGHỀ NGHIỆP"
-              />
-              <span>nghề nghiệp</span>
-            </Link>
+            <ul className="sidebar">
+              <li>
+                <Link to="/dich-vu-khach-hang">
+                  <img
+                    src="https://www.highlandscoffee.com.vn/vnt_upload/about/thumbs/370_crop_About_Customer_service_2.jpg"
+                    alt="DỊCH VỤ KHÁCH HÀNG"
+                  />
+                  <span>dịch vụ khách hàng</span>
+                </Link>
+              </li>
+              <li>
+                <Link to="/nghe-nghiep">
+                  <img
+                    src="https://www.highlandscoffee.com.vn/vnt_upload/about/thumbs/370_crop_ABOUT-CAREER3.jpg"
+                    alt="NGHỀ NGHIỆP"
+                  />
+                  <span>nghề nghiệp</span>
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

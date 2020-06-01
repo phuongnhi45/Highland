@@ -43,6 +43,7 @@
   font-size: 3.5em;
   text-transform: uppercase;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 .thongtin .col-8 .mota{
   font-size: 14px !important;
@@ -50,8 +51,35 @@
   margin: 0px;
   padding: 5px 0px;
 }
+.thongtin .col-8 .mota a{
+  color: darkred;
+  text-decoration: none;
+}
+.thongtin .col-8 button{
+  left: 0;
+  margin: 0 15px;
+}
 .thongtin .col-4{
   display: block;
   position: relative;
+  text-align: center;
+}
+.thongtin .col-4 .sidebar{
+  list-style: none;
+  margin: 0;
+}
+.col-4 .sidebar li{
+  margin-bottom: 20px;
+  position: relative;
+}
+.sidebar li span{
+  color: white;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  left: 33%;
+  bottom: 0;
+  width: 5em;
   text-align: center;
 }
