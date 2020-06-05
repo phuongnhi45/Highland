@@ -4,6 +4,7 @@ import Menu from '../Menu/Menu';
 import Nav from '../Nav/Nav';
 import Tintuc from '../News/Tintuc';
 import '../Menu/thucdon.css';
+import '../Menu/tra-thanh-dao.css';
 import '../Nav/nav.css';
 import '../System/system.css';
 import '../News/tintuc.css';
@@ -27,6 +28,7 @@ import Freeze from '../Menu/Freeze';
 import Tea from '../Menu/Tea';
 import Bread from '../Menu/Bread';
 import Khac from '../Menu/Khac';
+import Detailtea from '../Menu/Detail';
 
 class DieuHuongURL extends Component {
   render() {
@@ -51,6 +53,7 @@ class DieuHuongURL extends Component {
         <Route exact path="/tra" component={Tea}/>
         <Route exact path="/banh-mi" component={Bread}/>
         <Route exact path="/khac" component={Khac}/>
+        <Route exact path="/chi-tiet-tra" component={Detailtea}/>
       </div>
     );
   }

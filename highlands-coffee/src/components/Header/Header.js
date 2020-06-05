@@ -42,7 +42,7 @@ class header extends Component {
                           <li><Link to="/tra" className="kind">trà</Link></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">trà sen vàng</a></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">trà thạch đào</a></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">trà thanh đào</a></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">trà thanh đào</Link></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">trà thạch vải</a></li>
                         </ul>
                       </div>
