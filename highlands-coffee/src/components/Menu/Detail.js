@@ -22,7 +22,23 @@ class Detailtea extends Component {
           </aside>
         </div>
         <hr style={{width: '180%'}}/>
-
+        <ul className="odd">
+          <li>
+            <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/04_2020/thumbs/270_crop_TRATHACHVAI_1.png" alt="Trà Thạch Vải"/>
+            <a className="tentra" href="/">trà thạch vải</a>
+            <div id="content" className="price">39,000 VNĐ</div>
+          </li>
+          <li>
+            <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_TRATHACHDAO.png" alt="Trà Thạch Đào"/>
+            <a className="tentra" href="/">trà thạch đào</a>
+            <div id="content" className="price">39,000 VNĐ</div>
+          </li>
+          <li>
+            <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_TRASENVANG.png" alt="Trà Sen Vàng"/>
+            <a className="tentra" href="/">trà sen vàng</a>
+            <div id="content" className="price">39,000 VNĐ</div>
+          </li>
+        </ul>
       </div>
     );
   }

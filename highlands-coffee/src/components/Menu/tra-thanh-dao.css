@@ -4,6 +4,7 @@
   margin-top: 100px;
   max-width: 750px;
   padding: 0 150px;
+  margin-bottom: 50px;
 }
 .traa{
   text-align: left;
@@ -51,7 +52,50 @@
 .price::before{
   content: "Giá: ";
   color: black;
+  font-weight: lighter;
 }
 #myDIV, #myDIV2{
   display: none;
+}
+.tra-thanh-dao .price{
+  font-weight: bold;
+}
+.tra-thanh-dao .odd{
+  list-style: none;
+}
+.odd{
+  display: inline-flex;
+  text-align: center;
+}
+.odd li{
+  width: 240px;
+  overflow: hidden;
+  float: left;
+  display: block;
+  margin-right: 30px;
+}
+.odd li img{
+  border: 1px solid #eeeeee;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s linear;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.odd li img:hover{
+  transform: scale(1.05);
+}
+.odd .tentra{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #53382c;
+  text-decoration: none;
+  transition: 0.4s;
+  font-size: 20px;
+}
+.odd .tentra:hover{
+  color: #990033;
+}
+.odd .price{
+  margin-top: 15px;
 }
