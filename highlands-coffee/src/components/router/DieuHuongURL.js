@@ -4,6 +4,7 @@ import Menu from '../Menu/Menu';
 import Nav from '../Nav/Nav';
 import Tintuc from '../News/Tintuc';
 import '../Menu/thucdon.css';
+import '../Menu/tea.css';
 import '../Menu/tra-thanh-dao.css';
 import '../Nav/nav.css';
 import '../System/system.css';
@@ -24,10 +25,7 @@ import dichvu from '../about/dichvu';
 import job from '../about/job';
 import order from '../Contact/order';
 import Caphe from '../Menu/Caphe';
-import Freeze from '../Menu/Freeze';
 import Tea from '../Menu/Tea';
-import Bread from '../Menu/Bread';
-import Khac from '../Menu/Khac';
 import Detailtea from '../Menu/Detail';
 
 class DieuHuongURL extends Component {
@@ -49,10 +47,7 @@ class DieuHuongURL extends Component {
         <Route exact path="/gia-tri-van-hoa-viet" component={giatri}/>
         <Route exact path="/trach-nhiem-cong-dong" component={trachnhiem}/>
         <Route exact path="/ca-phe" component={Caphe}/>
-        <Route exact path="/da-xay" component={Freeze}/>
         <Route exact path="/tra" component={Tea}/>
-        <Route exact path="/banh-mi" component={Bread}/>
-        <Route exact path="/khac" component={Khac}/>
         <Route exact path="/chi-tiet-tra" component={Detailtea}/>
       </div>
     );

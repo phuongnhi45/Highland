@@ -1,0 +1,11 @@
+.tra{
+  margin-top: -20px;
+}
+.cate{
+  background: #fbedd7;
+}
+.tra .cate .title{
+  text-align: left;
+  text-transform: uppercase;
+
+}
