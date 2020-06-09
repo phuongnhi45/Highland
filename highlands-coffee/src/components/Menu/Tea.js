@@ -1,20 +1,18 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 class Tea extends Component {
   render() {
     return (
-      <div className="tra" style={{marginTop: '-20px'}}>
+      <div className="tra">
         <div className="cate">
-          <h1 className="title">trà</h1>
+          {/* <h1 className="title">trà</h1> */}
           <div className="col-8">
             <Link to="/chi-tiet-tra">
               <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/menu-TEA-inside.jpg" alt="Trà"/>
             </Link>
             <p>Hương vị tự nhiên, thơm ngon của Trà Việt với phong cách hiện đại tại Highlands Coffee sẽ giúp bạn gợi mở vị giác của bản thân và tận hưởng một cảm giác thật khoan khoái, tươi mới.</p>
-            <Link to="/chi-tiet-tra">
-              <div className="hang">xem sản phẩm</div>
-            </Link>
+            <Link to="/chi-tiet-tra" className="hang">xem sản phẩm</Link><br/><br/><br/>
           </div>
 
           <div className="col-4">

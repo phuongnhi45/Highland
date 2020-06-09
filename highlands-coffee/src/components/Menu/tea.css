@@ -3,9 +3,41 @@
 }
 .cate{
   background: #fbedd7;
+  padding: 50px 120px;
+  display: inline-flex;
+}
+.cate .col-8{
+  padding: 0;
+}
+.cate .col-8 p{
+  margin: 5px 37px 27px 0;
 }
 .tra .cate .title{
   text-align: left;
   text-transform: uppercase;
+  font-size: 3em;
+  font-weight: bold;
+  color: #53382c;
+}
+.col-8 .hang{
+  text-decoration: none;
+  left: 0;
+  position: absolute;
+  text-transform: uppercase;
+  width: 14em;
+  text-align: center;
+  height: 40px;
+  border-radius: 4px;
+  color: rgb(178, 40, 48);
+  border: 1px solid rgb(178, 40, 48);
+  transition: 0.3s all linear;
+}
+.col-8 .hang:hover{
+  color: aliceblue;
+  background-color: rgb(178, 40, 48);
+}
+.cate .col-4 .item .anh img{
+  width: 50%;
+  transition: 0.3s all linear;
 
 }
