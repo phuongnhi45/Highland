@@ -24,7 +24,7 @@ class Tea extends Component {
                   </Link>
                 </div>
                 <div className="caption">
-                  <h4>trà sen vàng</h4>
+                  <Link to="/chi-tiet-tra"><h4>trà sen vàng</h4></Link>
                   <span>Thức uống chinh phục những thực khách khó tính! Sự kết hợp độc đáo giữa trà Ô long</span>
                 </div>
               </div>
@@ -36,7 +36,7 @@ class Tea extends Component {
                   </Link>
                 </div>
                 <div className="caption">
-                  <h4>trà thạch đào</h4>
+                  <Link to="/chi-tiet-tra"><h4>trà thạch đào</h4></Link>
                   <span>Vị trà đậm đà kết hợp cùng những miếng đào thơm ngon mọng nước cùng thạch đào</span>
                 </div>
               </div>

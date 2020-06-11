@@ -1,9 +1,10 @@
 .tra{
   margin-top: -20px;
+  margin-bottom: 30px;
 }
 .cate{
   background: #fbedd7;
-  padding: 50px 120px;
+  padding: 50px 120px 80px;
 }
 .cate .vang{
   display: inline-flex;
@@ -56,6 +57,13 @@
   font-weight: bold;
   color: #53382c;
   font-size: 1.5em;
+}
+.caption a{
+  text-decoration: none;
+}
+.caption h4:hover{
+  color: rgb(178, 40, 48);
+  transition: 0.3s all linear;
 }
 .caption span{
   font-size: 16px;
