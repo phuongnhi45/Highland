@@ -4,9 +4,11 @@
 .cate{
   background: #fbedd7;
   padding: 50px 120px;
+}
+.cate .vang{
   display: inline-flex;
 }
-.cate .col-8{
+.cate .vang .col-8{
   padding: 0;
 }
 .cate .col-8 p{
@@ -36,8 +38,25 @@
   color: aliceblue;
   background-color: rgb(178, 40, 48);
 }
+.cate .col-4 .item .anh{
+  margin-right: 15px;
+  width: 100%;
+}
 .cate .col-4 .item .anh img{
-  width: 50%;
+  width: 100%;
   transition: 0.3s all linear;
-
+}
+.col-4 .item {
+  width: 100%;
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+.caption h4{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #53382c;
+  font-size: 1.5em;
+}
+.caption span{
+  font-size: 16px;
 }
