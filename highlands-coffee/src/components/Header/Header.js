@@ -26,42 +26,42 @@ class header extends Component {
                       <div className="col-sm-2">
                         <ul>
                           <li><Link to="/ca-phe" className="kind">cà phê</Link></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">cà phê phin</a></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">cà phê espresso</a></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">cà phê phin</Link></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">cà phê espresso</Link></li>
                         </ul>
                       </div>
                       <div className="col-sm-2">
                         <ul>
-                          <li><Link to="/da-xay" className="kind">freeze</Link></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">freeze cà phê phin</a></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">freeze không cà phê</a></li>
+                          <li><Link to="/ca-phe" className="kind">freeze</Link></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">freeze cà phê phin</Link></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">freeze không cà phê</Link></li>
                         </ul>
                       </div>
                       <div className="col-sm-2">
                         <ul>
                           <li><Link to="/tra" className="kind">trà</Link></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">trà sen vàng</a></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">trà thạch đào</a></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">trà sen vàng</Link></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">trà thạch đào</Link></li>
                           <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">trà thanh đào</Link></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">trà thạch vải</a></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">trà thạch vải</Link></li>
                         </ul>
                       </div>
                       <div className="col-sm-2">
                         <ul>
-                          <li><Link to="/banh-mi" className="kind">bánh mì</Link></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">thịt nướng</a></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">xíu mại</a></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">chả lụa xá xíu</a></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">gà xé nước tương</a></li>
+                          <li><Link to="/ca-phe" className="kind">bánh mì</Link></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">thịt nướng</Link></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">xíu mại</Link></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">chả lụa xá xíu</Link></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">gà xé nước tương</Link></li>
                         </ul>
                       </div>
                       <div className="col-sm-2">
                         <ul>
-                          <li><Link to="/khac" className="kind">khác</Link></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">bánh ngọt</a></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">merchandise</a></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">cà phê đóng gói</a></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">thực đơn giao hàng</a></li>
+                          <li><Link to="/tra" className="kind">khác</Link></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">bánh ngọt</Link></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">merchandise</Link></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">cà phê đóng gói</Link></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">thực đơn giao hàng</Link></li>
                         </ul>
                       </div>
                       <div className="col-sm-2">
@@ -95,13 +95,13 @@ class header extends Component {
                       <div className="col-sm-3">
                         <ul>
                           <li><Link to="/gia-tri-van-hoa-viet" className="kind">giá trị văn hoá việt</Link></li>
-                          <li style={{margin: '-10px'}}><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">đương đại hoá tranh đồng hồ</a></li>
+                          <li style={{margin: '-10px'}}><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">đương đại hoá tranh đồng hồ</Link></li>
                         </ul>
                       </div>
                       <div className="col-sm-2">
                         <ul>
                           <li><Link to="/cong-dong" className="kind">cộng đồng</Link></li>
-                          <li><i className="fa fa-caret-right" aria-hidden="true" /><a href="/" className="name">lớp học cho em</a></li>
+                          <li><i className="fa fa-caret-right" aria-hidden="true" /><Link to="/chi-tiet-tra" className="name">lớp học cho em</Link></li>
                         </ul>
                       </div>
                       <div className="col-sm-2" style={{right: '-36em'}}>

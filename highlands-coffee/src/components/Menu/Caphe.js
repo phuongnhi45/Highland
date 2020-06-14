@@ -56,7 +56,7 @@ class Caphe extends Component {
           </div>
         </div>
         
-        <div id="carousel-example-generic" className="carousel slide hidden-xs" data-ride="carousel">
+        <div id="carousel-example-generic" className="carousel slide hidden-xs" data-ride="carousel" style={{paddingLeft: '30px', paddingTop: '10px', marginBottom:'30px'}}>
           {/* Wrapper for slides */}
           <div className="carousel-inner">
             <div className="item active">
@@ -64,87 +64,30 @@ class Caphe extends Component {
                 <div className="col-sm-4">
                   <div className="col-item">
                     <div className="photo">
-                      <img src="http://placehold.it/350x260" className="img-responsive" alt="a" />
+                      <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_AMERICANO.png" className="img-responsive" alt="a" />
                     </div>
-                    <div className="info">
-                      <div className="roww">
-                        <div className="price col-md-6">
-                          <h5>
-                            Sample Product</h5>
-                          <h5 className="price-text-color">
-                            $199.99</h5>
-                        </div>
-                        <div className="rating hidden-sm col-md-6">
-                          <i className="price-text-color fa fa-star" /><i className="price-text-color fa fa-star">
-                          </i><i className="price-text-color fa fa-star" /><i className="price-text-color fa fa-star">
-                          </i><i className="fa fa-star" />
-                        </div>
-                      </div>
-                      <div className="separator clear-left">
-                        <p className="btn-add">
-                          <i className="fa fa-shopping-cart" /><a href="http://www.jquery2dotnet.com" className="hidden-sm">Add to cart</a></p>
-                        <p className="btn-details">
-                          <i className="fa fa-list" /><a href="http://www.jquery2dotnet.com" className="hidden-sm">More details</a></p>
-                      </div>
-                      <div className="clearfix">
-                      </div>
+                    <div className="info" style={{paddingLeft: '12%', fontSize: '1.5em'}}>
+                      Phin Đen Nóng
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-4">
                   <div className="col-item">
                     <div className="photo">
-                      <img src="http://placehold.it/350x260" className="img-responsive" alt="a" />
+                      <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_PHIN-SUA-DA.png" className="img-responsive" alt="a" />
                     </div>
-                    <div className="info">
-                      <div className="roww">
-                        <div className="price col-md-6">
-                          <h5>
-                            Product Example</h5>
-                          <h5 className="price-text-color">
-                            $249.99</h5>
-                        </div>
-                        <div className="rating hidden-sm col-md-6">
-                        </div>
-                      </div>
-                      <div className="separator clear-left">
-                        <p className="btn-add">
-                          <i className="fa fa-shopping-cart" /><a href="http://www.jquery2dotnet.com" className="hidden-sm">Add to cart</a></p>
-                        <p className="btn-details">
-                          <i className="fa fa-list" /><a href="http://www.jquery2dotnet.com" className="hidden-sm">More details</a></p>
-                      </div>
-                      <div className="clearfix">
-                      </div>
+                    <div className="info" style={{paddingLeft: '15%', fontSize: '1.5em'}}>
+                      Phin Sữa Đá
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-4">
                   <div className="col-item">
                     <div className="photo">
-                      <img src="http://placehold.it/350x260" className="img-responsive" alt="a" />
+                      <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_GTF.png" className="img-responsive" alt="a" />
                     </div>
-                    <div className="info">
-                      <div className="roww">
-                        <div className="price col-md-6">
-                          <h5>
-                            Next Sample Product</h5>
-                          <h5 className="price-text-color">
-                            $149.99</h5>
-                        </div>
-                        <div className="rating hidden-sm col-md-6">
-                          <i className="price-text-color fa fa-star" /><i className="price-text-color fa fa-star">
-                          </i><i className="price-text-color fa fa-star" /><i className="price-text-color fa fa-star">
-                          </i><i className="fa fa-star" />
-                        </div>
-                      </div>
-                      <div className="separator clear-left">
-                        <p className="btn-add">
-                          <i className="fa fa-shopping-cart" /><a href="http://www.jquery2dotnet.com" className="hidden-sm">Add to cart</a></p>
-                        <p className="btn-details">
-                          <i className="fa fa-list" /><a href="http://www.jquery2dotnet.com" className="hidden-sm">More details</a></p>
-                      </div>
-                      <div className="clearfix">
-                      </div>
+                    <div className="info" style={{paddingLeft: '15%', fontSize: '1.5em'}}>
+                    Freeze Trà Xanh
                     </div>
                   </div>
                 </div>
@@ -155,87 +98,30 @@ class Caphe extends Component {
                 <div className="col-sm-4">
                   <div className="col-item">
                     <div className="photo">
-                      <img src="http://placehold.it/350x260" className="img-responsive" alt="a" />
+                      <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_BMTHITNUONG.png" className="img-responsive" alt="a" />
                     </div>
-                    <div className="info">
-                      <div className="roww">
-                        <div className="price col-md-6">
-                          <h5>
-                            Product with Variants</h5>
-                          <h5 className="price-text-color">
-                            $199.99</h5>
-                        </div>
-                        <div className="rating hidden-sm col-md-6">
-                          <i className="price-text-color fa fa-star" /><i className="price-text-color fa fa-star">
-                          </i><i className="price-text-color fa fa-star" /><i className="price-text-color fa fa-star">
-                          </i><i className="fa fa-star" />
-                        </div>
-                      </div>
-                      <div className="separator clear-left">
-                        <p className="btn-add">
-                          <i className="fa fa-shopping-cart" /><a href="http://www.jquery2dotnet.com" className="hidden-sm">Add to cart</a></p>
-                        <p className="btn-details">
-                          <i className="fa fa-list" /><a href="http://www.jquery2dotnet.com" className="hidden-sm">More details</a></p>
-                      </div>
-                      <div className="clearfix">
-                      </div>
+                    <div className="info" style={{paddingLeft: '10%', fontSize: '1.5em'}}>
+                    Bánh Mì Thịt Nướng
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-4">
                   <div className="col-item">
                     <div className="photo">
-                      <img src="http://placehold.it/350x260" className="img-responsive" alt="a" />
+                      <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_SOCOLAHL.png" className="img-responsive" alt="a" />
                     </div>
-                    <div className="info">
-                      <div className="roww">
-                        <div className="price col-md-6">
-                          <h5>
-                            Grouped Product</h5>
-                          <h5 className="price-text-color">
-                            $249.99</h5>
-                        </div>
-                        <div className="rating hidden-sm col-md-6">
-                        </div>
-                      </div>
-                      <div className="separator clear-left">
-                        <p className="btn-add">
-                          <i className="fa fa-shopping-cart" /><a href="http://www.jquery2dotnet.com" className="hidden-sm">Add to cart</a></p>
-                        <p className="btn-details">
-                          <i className="fa fa-list" /><a href="http://www.jquery2dotnet.com" className="hidden-sm">More details</a></p>
-                      </div>
-                      <div className="clearfix">
-                      </div>
+                    <div className="info" style={{paddingLeft: '10%', fontSize: '1.5em'}}>
+                      Sô-Cô-La Highlands
                     </div>
                   </div>
                 </div>
                 <div className="col-sm-4">
                   <div className="col-item">
                     <div className="photo">
-                      <img src="http://placehold.it/350x260" className="img-responsive" alt="a" />
+                      <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_TRATHANHDAO.png" className="img-responsive" alt="a" />
                     </div>
-                    <div className="info">
-                      <div className="roww">
-                        <div className="price col-md-6">
-                          <h5>
-                            Product with Variants</h5>
-                          <h5 className="price-text-color">
-                            $149.99</h5>
-                        </div>
-                        <div className="rating hidden-sm col-md-6">
-                          <i className="price-text-color fa fa-star" /><i className="price-text-color fa fa-star">
-                          </i><i className="price-text-color fa fa-star" /><i className="price-text-color fa fa-star">
-                          </i><i className="fa fa-star" />
-                        </div>
-                      </div>
-                      <div className="separator clear-left">
-                        <p className="btn-add">
-                          <i className="fa fa-shopping-cart" /><a href="http://www.jquery2dotnet.com" className="hidden-sm">Add to cart</a></p>
-                        <p className="btn-details">
-                          <i className="fa fa-list" /><a href="http://www.jquery2dotnet.com" className="hidden-sm">More details</a></p>
-                      </div>
-                      <div className="clearfix">
-                      </div>
+                    <div className="info" style={{paddingLeft: '16%', fontSize: '1.5em'}}>
+                      Trà Thanh Đào
                     </div>
                   </div>
                 </div>

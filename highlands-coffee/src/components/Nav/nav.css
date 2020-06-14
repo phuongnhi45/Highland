@@ -10,8 +10,14 @@ nav{
     animation-name: example;
     animation-duration: 4s;
 }
+.slick-slider{
+    margin-bottom: -5px;
+}
 .slick-dots {
-    bottom: -13px;
+    bottom: 0;
+}
+.slick-dots li button:before {
+    font-size: 10px;
 }
 .mot{
     animation-delay: 2s;

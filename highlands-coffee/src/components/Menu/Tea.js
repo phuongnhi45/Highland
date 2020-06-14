@@ -45,7 +45,89 @@ class Tea extends Component {
           </div> 
         </div>
 
-
+        <div className="roww">
+          <div className="col-md-11">
+            {/* Controls */}
+            <div className="controls pull-right hidden-xs">
+              <a className="left fa fa-chevron-left btn btn-primary" href="#carousel-example-generic" data-slide="prev" /><a className="right fa fa-chevron-right btn btn-primary" href="#carousel-example-generic" data-slide="next" />
+            </div>
+          </div>
+        </div>
+        
+        <div id="carousel-example-generic" className="carousel slide hidden-xs" data-ride="carousel" style={{paddingLeft: '30px', paddingTop: '10px', marginBottom:'30px'}}>
+          {/* Wrapper for slides */}
+          <div className="carousel-inner">
+            <div className="item active">
+              <div className="roww">
+                <div className="col-sm-4">
+                  <div className="col-item">
+                    <div className="photo">
+                      <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_AMERICANO.png" className="img-responsive" alt="a" />
+                    </div>
+                    <div className="info" style={{paddingLeft: '12%', fontSize: '1.5em'}}>
+                      Phin Đen Nóng
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-4">
+                  <div className="col-item">
+                    <div className="photo">
+                      <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_PHIN-SUA-DA.png" className="img-responsive" alt="a" />
+                    </div>
+                    <div className="info" style={{paddingLeft: '15%', fontSize: '1.5em'}}>
+                      Phin Sữa Đá
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-4">
+                  <div className="col-item">
+                    <div className="photo">
+                      <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_GTF.png" className="img-responsive" alt="a" />
+                    </div>
+                    <div className="info" style={{paddingLeft: '15%', fontSize: '1.5em'}}>
+                    Freeze Trà Xanh
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="item">
+              <div className="roww">
+                <div className="col-sm-4">
+                  <div className="col-item">
+                    <div className="photo">
+                      <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_BMTHITNUONG.png" className="img-responsive" alt="a" />
+                    </div>
+                    <div className="info" style={{paddingLeft: '10%', fontSize: '1.5em'}}>
+                    Bánh Mì Thịt Nướng
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-4">
+                  <div className="col-item">
+                    <div className="photo">
+                      <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_SOCOLAHL.png" className="img-responsive" alt="a" />
+                    </div>
+                    <div className="info" style={{paddingLeft: '10%', fontSize: '1.5em'}}>
+                      Sô-Cô-La Highlands
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-4">
+                  <div className="col-item">
+                    <div className="photo">
+                      <img src="https://www.highlandscoffee.com.vn/vnt_upload/product/03_2018/thumbs/270_crop_TRATHANHDAO.png" className="img-responsive" alt="a" />
+                    </div>
+                    <div className="info" style={{paddingLeft: '16%', fontSize: '1.5em'}}>
+                      Trà Thanh Đào
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
       </div>
     );
   }
